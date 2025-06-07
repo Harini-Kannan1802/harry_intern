@@ -1,17 +1,30 @@
-# Harry Project
+# Harry Intern Project
 
-This is a PHP-based project developed using XAMPP.
+Welcome to the **Harry Intern Project**! This repository contains the codebase and resources for the internship project.
 
-## Setup Instructions
-
-1. Install [XAMPP](https://www.apachefriends.org/index.html) and start Apache and MySQL.
-2. Place the `harry` folder in `C:\xampp\htdocs\` (Windows) or `/Applications/XAMPP/htdocs/` (Mac).
-3. Access the project by navigating to `http://localhost:85/harry/` in your browser.
+## Project Overview
+This project is designed to help manage various functionalities like user registration, login, and profile management, along with integration of weather and news APIs. It includes a clean UI layout and allows users to upload and interact with posts, making it a social media-like platform.
 
 ## Features
-- PHP files for user registration, login, etc.
-- MySQL integration for storing data.
+- **User Registration**: Allows users to register with their information.
+- **User Login**: Provides login functionality for returning users.
+- **Dashboard**: Displays user posts and weather data.
+- **Post Management**: Allows users to upload and interact with posts.
+- **Weather Integration**: Shows weather information based on the user's location.
+- **News Integration**: Displays the latest headlines from a news API.
 
-## License
+## Technologies Used
+- **Frontend**: HTML, CSS, Bootstrap
+- **Backend**: PHP, MySQL
+- **API Integration**: Weather API, News API (GNews)
 
-Add your license here, if applicable.
+## Getting Started
+
+### Prerequisites
+- Install [XAMPP](https://www.apachefriends.org/index.html) or any local server software for PHP.
+- Create a MySQL database (e.g., `newdbs`) and import the required tables.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Harini-Kannan1802/harry_intern.git
